@@ -1,0 +1,266 @@
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+    height: 41.5rem;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+.heading{
+    font-family: 'Montserrat black-900', sans-serif;
+    font-weight: 400;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 3% 15%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+/* navbar */
+.navbar-brand{
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+    padding-left: 0;
+}
+.nav-item{
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 1.2rem;
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: relative;
+    top: 15px;
+    left: 45px;
+}
+/* features */
+#features{
+    padding: 5% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: +1;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.f-icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.f-icon:hover{
+    color: #ff4c68;
+}
+.f-title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.f-des{
+    color: #8f8f8f;
+}
+
+/* press */
+#books{
+    background-color: #ef8172;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding-bottom: 3%;
+}
+.grid-item{
+    text-align: center;
+}
+.book-img{
+    width: 140px;
+    height: 200px;
+    margin: 20px 20px 20px 20px;
+}
+.demand-desc{
+    position: relative;
+    bottom: 40px;
+    left: 10px;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+
+}
+
+
+/*pricing*/
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-col{
+    padding: 3% 2%;
+    text-align: center;
+}
+.card-body p{
+    margin-top: 0;
+    margin-bottom: 3px;
+}
+.card-body h2{
+    margin-bottom: 15px;
+}
+.card-body button{
+    margin-top: 25px;
+}
+
+/*call to action*/
+footer a:hover{
+    color: #ff4c68;
+}
+footer a{
+    color: #ef8172;
+}
+footer p{
+    position: relative;
+    top: 30px;
+}
+
+
+/*media-query for mobile  view*/
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+        height: auto;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        width: 200px;
+    }
+    .heading{
+        font-size: 3rem;
+    }
+    #books{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+    #cta p{
+        font-size: 3px;
+        font-weight: bold;
+        color: #fff;
+    }
+}
+/*call to action*/
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-top: 103px;
+    padding-bottom: 80px;
+    padding-left: 194px;
+    padding-right: 194px;
+}
+#cta p{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 3rem;
+    line-height: 5.5rem;
+}
+
+/*footer*/
+#footer{
+    background-color: #fff;
+    text-align: center;
+    padding-top: 112px;
+    padding-bottom: 153px;
+    height: 445px;
+}
+#footer table{
+    margin: 0 auto;
+}   
+#footer td{
+    padding: 27px;
+}
+
+
+
+
+
+/*Signup/login page*/
+#form-nav{
+    background-color: #ff4c68;
+    height: 9rem;
+    position: relative;
+    top: 50px;
+    color: black\;
+}
+
+#form-footer{
+    background-color: #fff;
+    text-align: center;
+    padding-top: 112px;
+    padding-bottom: 153px;
+    height: 45px;
+}
+#form-footer table{
+    margin: 0 auto;
+}   
+#form-footer td{
+    padding: 27px;
+}
+
+/*errors*/
+.formerror{
+    color:red;
+    font:bold;
+    font-style: italic;
+
+}
+
+/*Welcome page*/
+.container-fluid1{
+width: 100%;
+height: auto;
+padding: 0px 0px 80px 0px;
+}
+.container{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.container .search{
+    display: flex;
+    height: 40px;
+    margin-top: 50px;
+    justify-content: space-between;
+    letter-spacing: 3px;
+    
+}
+.container .search h1{
+    letter-spacing: 3px;
+    display: inline-block;
+    border-bottom: 2px hotpink;
+
+}
+.container .search input{
+    width: 60%;
+}
+.container .product-list {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.product h6{
+    text-align: center;
+}
